@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li {
+        @apply p-2 pr-4
+    }
+
+    button {
+        @apply text-white bg-blue-800 py-3 px-5 hover:bg-slate-500 hover:text-white rounded-md transition
+    }
+
+}
+
+.container img{
+  object-fit: cover;
+}
+
+.sliderItem {
+    width: 200px;
+    height: 600px;
+
+
+
+}
+
+.slick-prev:before,
+.slick-next::before {
+    color: darkviolet !important;
+}
+
+.hot{
+    background-color: none;
+}
+.hot img
+{
+        width: 290px;
+            height: 250px;
+        object-fit: cover;
+
+    }
+
+button:disabled {
+    background-color: gray;
+}
+
+button:disabled:hover {
+    text-decoration: none;
+    color: white
+}
+ .products img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+    
+        }
+ .products {
+   background-color: transparent;
+
+ }
+.kings{
+    background-color: transparent;
+
+}
+
+.kings img{
+   width: 100%;
+   height:400px;
+    object-fit: cover;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+html img {
+    object-fit: cover;
+}
